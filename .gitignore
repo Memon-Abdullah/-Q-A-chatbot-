@@ -1,0 +1,15 @@
+# Virtual environment
+env_langgraph_rag/
+
+# Secrets
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# Generated vector index
+faiss_index/

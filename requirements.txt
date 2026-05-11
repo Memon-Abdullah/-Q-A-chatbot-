@@ -1,0 +1,10 @@
+python-docx
+faiss-cpu
+numpy
+requests
+python-dotenv
+langgraph
+langchain-core
+typing-extensions
+uvicorn
+fastapi
