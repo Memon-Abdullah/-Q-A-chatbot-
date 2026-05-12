@@ -54,14 +54,11 @@ OPENROUTER_API_KEY=your_actual_api_key_here
 # 1. Build the vector database from DLBook.docx
 python 1_create_vectordb.py
 
-# 2. Test LLM connection
-python 2_test_llm.py
+# 2. create rag pipeline
+python rag_piprliine_for_fast_api
 
-# 3. Test vector search only
-python 3_search_vectordb.py
-
-# 4. Full RAG pipeline
-python 4_rag_pipeline.py
+# 3. create the fast api and create server that call rag pipeline
+python main.py
 ```
 
 ---
