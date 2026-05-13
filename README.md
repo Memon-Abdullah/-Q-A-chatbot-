@@ -65,6 +65,6 @@ python main.py
 
 ## Notes
 
-- File 1 must be run BEFORE files 3 and 4 (it creates the FAISS index)
+- File 1 must be run BEFORE files 2 and 3 (it creates the FAISS index)
 - The `.env` file must be present before running any file
 - FAISS index is saved locally in `faiss_index/` folder — no need to rebuild unless you change the document
